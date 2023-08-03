@@ -1,5 +1,10 @@
-import { Container } from "./styles"
+import { Container } from './styles';
 
-export function SignIn () {
-    return ( <h1>Hello World</h1> )    
+export function SignIn() {
+  return (
+    <Container>
+      <h1>Hello World</h1>
+      <p>Testando minhas estilizações de cores</p>
+    </Container>
+  );
 }
