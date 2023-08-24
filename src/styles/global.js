@@ -13,7 +13,7 @@ export default createGlobalStyle`
 
   body {
     font-size: 1.6rem; 
-   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_DARK_400};
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_DARK_400};
     color: ${({ theme }) => theme.COLORS.WHITE};
 
     -webkit-font-smoothing: antialiased;
